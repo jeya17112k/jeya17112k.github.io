@@ -8,7 +8,7 @@ permalink: /
 ---
 
 ## 🔗 Notebook Link  
-[Assignment 6 Notebook – Building Inventory Visualizations](https://github.com/jeya17112k/jeya17112k.github.io/blob/main/Assignment_6_BuildingInventory_Visualizations.ipynb)
+[Assignment 6 Notebook – Building Inventory Visualizations](https://nbviewer.org/github/jeya17112k/jeya17112k.github.io/blob/main/Assignment6_BuildingInventory_Visualizations.ipynb)
 
 ## 🔗 Dataset Link  
 [Building Inventory CSV](https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv)
