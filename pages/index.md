@@ -16,7 +16,7 @@ permalink: /
 ---
 
 ## 📊 Plot 1 – Top 10 Building Usage Types by Count (Transparent Stacked Bar)
-![Plot 1](assets/visualization (1).png)
+![Plot 1](https://github.com/jeya17112k/jeya17112k.github.io/blob/main/assets/visualization%20(1).png)
 
 This bar chart visualizes the top 10 building usage categories (`Usage Description`) by count of buildings, with each bar segmented by `Bldg Status`. The x-axis displays the 10 most frequent usage types, and the y-axis shows the number of buildings for each. Within each bar, the building statuses—such as "In Use", "In Progress", and "Abandon"—are stacked vertically. This provides a concise yet multi-dimensional view of how building usage and status intersect. To help highlight all categories within each bar, I applied a slight transparency effect to the bar segments, which prevents top layers from fully obscuring smaller ones beneath.
 
