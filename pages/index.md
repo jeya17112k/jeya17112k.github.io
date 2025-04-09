@@ -5,6 +5,7 @@ permalink: /
 
 ## Building Inventory Visualizations
 
+
 ### 📊 Plot 1 – Top 10 Building Usage Types by Count
 
 <iframe src="/assets/plot1.html" width="100%" height="600px" frameborder="0" scrolling="no"></iframe>
@@ -40,6 +41,6 @@ This visualization includes enhanced interactivity. Users can zoom and scroll on
 
 #### [Notebook](https://nbviewer.org/github/jeya17112k/jeya17112k.github.io/blob/main/Assignment6_BuildingInventory_Visualizations.ipynb)
 
-#### [Dataset Link](https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv)
+#### [Dataset](https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv)
 
 ---
