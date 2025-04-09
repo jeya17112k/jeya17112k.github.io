@@ -16,7 +16,7 @@ permalink: /
 ---
 
 ## 📊 Plot 1 – Top 10 Building Usage Types by Count (Transparent Stacked Bar)
-![Plot 1](/assets/visualization(1).png)
+![Plot 1](/assets/plot1.png)
 
 
 This bar chart visualizes the top 10 building usage categories (`Usage Description`) by count of buildings, with each bar segmented by `Bldg Status`. The x-axis displays the 10 most frequent usage types, and the y-axis shows the number of buildings for each. Within each bar, the building statuses—such as "In Use", "In Progress", and "Abandon"—are stacked vertically. This provides a concise yet multi-dimensional view of how building usage and status intersect. To help highlight all categories within each bar, I applied a slight transparency effect to the bar segments, which prevents top layers from fully obscuring smaller ones beneath.
@@ -32,7 +32,7 @@ While the x-axis is categorical (which limits Altair’s `.interactive()` suppor
 ---
 
 ## 📊 Plot 2 – Building Size vs Year Acquired (Interactive)
-![Plot 2](/assets/isualization(2)png)
+![Plot 2](/assets/plot2.png)
 
 This plot visualizes how building size, measured by `Square Footage`, varies across the year it was acquired. It uses a scatter plot where the x-axis represents `Year Acquired` and the y-axis represents `Square Footage`. Each point represents a building, and the color of each point encodes its `Usage Description`. This allows us to compare patterns across different usage types and time. To provide even more dimensionality, I encoded `Total Floors` as the size of each point — giving insight into the vertical scale of each building. The chart offers a dynamic way to explore how building size and function have evolved over time.
 
