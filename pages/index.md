@@ -31,7 +31,7 @@ While the x-axis is categorical (which limits Altair’s `.interactive()` suppor
 ---
 
 ## 📊 Plot 2 – Building Size vs Year Acquired (Interactive)
-![Plot 2](../assets/plot2.png)
+![Plot 2](https://github.com/jeya17112k/jeya17112k.github.io/blob/main/assets/visualization%20(2).png)
 
 This plot visualizes how building size, measured by `Square Footage`, varies across the year it was acquired. It uses a scatter plot where the x-axis represents `Year Acquired` and the y-axis represents `Square Footage`. Each point represents a building, and the color of each point encodes its `Usage Description`. This allows us to compare patterns across different usage types and time. To provide even more dimensionality, I encoded `Total Floors` as the size of each point — giving insight into the vertical scale of each building. The chart offers a dynamic way to explore how building size and function have evolved over time.
 
