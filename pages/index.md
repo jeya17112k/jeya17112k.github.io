@@ -5,9 +5,8 @@ permalink: /
 
 # Building Inventory Visualizations
 
-## 📊 Plot 1 – Top 10 Building Usage Types by Count (Transparent Stacked Bar)
+## 📊 Plot 1 – Top 10 Building Usage Types by Count
 <iframe src="/assets/plot1.html" width="100%" height="600px" frameborder="0" scrolling="no"></iframe>
-
 This bar chart visualizes the top 10 building usage categories (`Usage Description`) by count of buildings, with each bar segmented by `Bldg Status`. The x-axis displays the 10 most frequent usage types, and the y-axis shows the number of buildings for each. Within each bar, the building statuses—such as "In Use", "In Progress", and "Abandon"—are stacked vertically. This provides a concise yet multi-dimensional view of how building usage and status intersect. To help highlight all categories within each bar, I applied a slight transparency effect to the bar segments, which prevents top layers from fully obscuring smaller ones beneath.
 
 In terms of design choices, this plot uses nominal encoding for `Usage Description` on the x-axis, and a quantitative encoding for count on the y-axis. I chose stacked bars to allow for the distribution of building statuses within each category, and opted for a transparent fill (`opacity=0.7`) to allow partial visibility of underlying segments. Color was mapped to `Bldg Status` using Altair’s categorical palette, ensuring that each building state has a distinct hue. Axis labels were rotated by 30 degrees to improve readability for long usage names. Tooltips were also enabled to give users detailed information on hover.
@@ -22,7 +21,6 @@ While the x-axis is categorical (which limits Altair’s `.interactive()` suppor
 
 ## 📊 Plot 2 – Building Size vs Year Acquired
 <iframe src="/assets/plot2.html" width="100%" height="600px" frameborder="0" scrolling="no"></iframe>
-
 This plot visualizes how building size, measured by `Square Footage`, varies across the year it was acquired. It uses a scatter plot where the x-axis represents `Year Acquired` and the y-axis represents `Square Footage`. Each point represents a building, and the color of each point encodes its `Usage Description`. This allows us to compare patterns across different usage types and time. To provide even more dimensionality, I encoded `Total Floors` as the size of each point — giving insight into the vertical scale of each building. The chart offers a dynamic way to explore how building size and function have evolved over time.
 
 In terms of encodings, I selected continuous quantitative axes for both X and Y, with a color encoding for `Usage Description:N` to allow categorical comparisons across building types. The point size was mapped to `Total Floors` to emphasize physical scale. I chose this encoding over shape because point size conveys magnitude more intuitively. A circular `mark_circle()` was used for better density management on scatter plots, especially with overlapping points. The color palette was automatically generated but tested for contrast to ensure categories are distinguishable even in dense clusters. Tooltips were enabled for user interactivity and immediate access to metadata such as square footage, floor count, and location name.
