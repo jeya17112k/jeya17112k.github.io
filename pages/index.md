@@ -38,10 +38,10 @@ This visualization includes enhanced interactivity. Users can zoom and scroll on
 ---
 ## 🔗 Resources
 
-### 🔗 Notebook Link  
+#### [Notebook Link](https://nbviewer.org/github/jeya17112k/jeya17112k.github.io/blob/main/Assignment6_BuildingInventory_Visualizations.ipynb)  
 [Notebook – Building Inventory Visualizations](https://nbviewer.org/github/jeya17112k/jeya17112k.github.io/blob/main/Assignment6_BuildingInventory_Visualizations.ipynb)
 
-### 🔗 Dataset Link  
+### Dataset Link  
 [Building Inventory CSV](https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv)
 
 ---
