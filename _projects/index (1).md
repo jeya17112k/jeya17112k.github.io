@@ -1,6 +1,13 @@
 ---
-layout: default
-permalink: /
+name: Building Inventory Visualizations
+tools: [Python, HTML, vega-lite]
+image: assets/pngs/visualization.png
+description: Homework__IS_445
+custom_js:
+  - vega.min
+  - vega-lite.min
+  - vega-embed.min
+  - justcharts
 ---
 
 ## Building Inventory Visualizations
